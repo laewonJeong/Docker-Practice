@@ -5,16 +5,21 @@
 자세한 내용은 블로그에 기록: [[Docker] 4. 간단한 Docker 실습](https://laewonjeong.tistory.com/14)
 
 <br/>
+
+## 😊 실습 준비
+#### **Docker 설치**
+[Docker 설치 공식 문서](https://docs.docker.com/engine/install/)
+- 본인 환경에 맞는 Docker Engine 설치
 <br/>
 
-## ✏️ Node.js Practice
-
-#### **`git clone`을 통해 본 레포지토리를 받아옴**
+#### **`git clone`을 통해 본 레포지토리를 받기**
 ```shell
 $ git clone https://github.com/laewonJeong/Docker-Practice.git
 ```
 
 <br/>
+
+## ✏️ Node.js Practice
 
 #### **nodejs_practice 디렉토리로 이동해 `docker build`를 통해 이미지를 build**
 ```shell
