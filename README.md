@@ -19,7 +19,7 @@ $ git clone https://github.com/laewonJeong/Docker-Practice.git
 
 <br/>
 
-## ✏️ Node.js Practice
+## 🔷 Node.js Practice
 
 #### **nodejs_practice 디렉토리로 이동해 `docker build`를 통해 이미지를 build**
 ```shell
@@ -44,13 +44,22 @@ $ (sudo) docker run -d -p 16800:16800 [IMAGE NAME]:[TAG]
 
 <br/>
 
+#### **`docker ps` 명령어를 통해 실행중인 컨테이너 확인**
+```shell
+$ (sudo) docker ps # 실행중인 컨테이너만 표시
+
+$ (sudo) docker ps -a # 중지된 컨테이너도 모두 표시
+```
+
+<br/>
+
 #### **`curl` 명령어 또는 직접 localhost:16800에 접속해 동작 확인**
 ```shell
 $ curl localhost:16800
 Docker Practice
 ```
 <br/><br/>
-## ✏️ Golang Practice
+## 🔷 Golang Practice
 
 #### **go_practice 디렉토리로 이동해 `docker build`를 통해 이미지를 build**
 ```shell
